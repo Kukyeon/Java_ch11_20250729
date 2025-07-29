@@ -17,15 +17,20 @@ public class ToLowerUpperTest {
 		System.out.println(str2.toUpperCase()); // 모두 대문자로 변경 
 		System.out.println(str2);
 		System.out.println(str3);
-		str2 = str2.toUpperCase(); // 대문자열로 변환후 덮어쓰기 (오버라이딩)
+		//str2 = str2.toUpperCase(); // 대문자열로 변환후 덮어쓰기 (오버라이딩)
 		
 		
-		if(str2.equals(str3)) {
+		if(str2.equals(str3)) {  // false  // 얘는 대소문자를 구별해줌 그래서 펄스
 			System.out.println("같은 문자열입니다.");
 		} else {
 			System.out.println("다른 문자열입니다.");
 		}
 		
+		if(str2.equalsIgnoreCase(str3)) { // true // 대소문자를 구별하지 않고 비교해줌 그래서 트루 
+			System.out.println("같은 문자열입니다.");
+		} else {
+			System.out.println("다른 문자열입니다.");
+		}
 		
 	}
 
