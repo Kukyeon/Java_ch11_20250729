@@ -24,9 +24,16 @@ public class Ex_3 {
 		}
 		System.out.println(str);
 		
+		System.out.println("------------------------------");
 		
-		
-		
+//		String str = "banana";
+//		String result = ""; // int sum =0;
+//		
+//		for(int i=0; i < str.length() ; i++) {
+//			if(result.indexOf(str.charAt(i))== -1 ) {
+//				result = result + str.charAt(i);
+//			}
+//		}	System.out.println(result);
 		
 	}
 

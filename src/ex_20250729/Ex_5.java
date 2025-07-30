@@ -8,14 +8,12 @@ public class Ex_5 {
 			String str = "Hello123, Java456";
 			int count = 0;
 			
-			
 			for(int i = 0 ; i < str.length() ; i++) {
 				char ch = str.charAt(i);
 				
-				
 				//65 -> 대문자 A 아스키코드값, 90 -> 대문자 Z 아스키코드값
 			if ((ch >=65 && ch <= 90) || (ch >= 97 && ch <= 122 )) {
-				
+				//A(65)~Z(90) 'A'< 이런형식도 가능 , a(97)~z(122) 사이에 알파벳 갯수를 카운팅
 				count++;
 			} 
 		}		System.out.println(count);
